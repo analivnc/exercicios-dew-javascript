@@ -12,10 +12,12 @@ if (listaAutores.includes("Clarice Lispector")) {
     console.log("Autor não encontrado");
 }
 
+// Função que recebe título e autor
 function mostrarLivro(titulo, autor) {
     return `O livro "${titulo}" foi escrito por ${autor}.`;
 }
 
+
 console.log(mostrarLivro("Dom Casmurro", "Machado de Assis"));
 
-console.log(listaAutores.join(" , "));
+console.log(listaAutores.join(", "));
